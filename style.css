@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cabecalho{
+    background-color: #022859;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+section{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    margin: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: .5rem auto;
+}
+
+.section-sports{
+    background-color: #FF5200;
+}
+
+.section-economy{
+    background-color: #F29F05;
+}
+
+.section-technology{
+    background-color: #011126;
+}
+
+.section-entertainment{
+    background-color: #F21D1D;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2rem;
+
+    margin-bottom: 4rem;
+}
+
+.card{
+    width: 30%;
+    padding: 1rem;
+}
+
+.card img{
+    width: 100%;
+    height: 230px;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.botao{
+    display: block;
+    width: 30%;
+    margin: 1rem 0;
+    padding: .5rem;
+
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #011126;
+    background-color: #fff;
+    
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color: #eee;
+}
+
+.text-small{
+    font-size: .8rem;
+}
